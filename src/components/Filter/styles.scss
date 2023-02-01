@@ -1,0 +1,51 @@
+.filter-container {
+    padding: 1rem;
+    position: absolute;
+    top: 3.5rem;
+    background: #ffffff;
+    border: 1px solid rgba(84, 95, 125, 0.14);
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.input-containers {
+    width: 100%;
+    padding: 0.5rem 1rem;
+}
+
+.input-containers label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #545f7d;
+    padding: 0.4rem 0.1rem;
+}
+
+.input-containers input,
+.input-containers select {
+    width: 100%;
+    border: 1px solid #d3d9e5;
+    outline: none;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 0.6rem;
+}
+
+.input-containers input::placeholder {
+    color: #afb5c0;
+}
+
+.input-containers select {
+    color: #afb5c0;
+}
+
+.btn-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}

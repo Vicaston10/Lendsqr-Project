@@ -1,0 +1,16 @@
+.layout-flex {
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+}
+
+@media (max-width: 1200px) {
+    .sidebar-flex {
+        position: relative;
+        display: none;
+    }
+}
+
+.sidebar-flex {
+    position: relative;
+}

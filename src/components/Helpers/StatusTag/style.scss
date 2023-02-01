@@ -1,0 +1,27 @@
+.status-container{
+    padding: 0.2rem 0.5rem;
+    width:6rem;
+   text-align: center;
+border-radius: 100px;
+}
+ 
+.pending{
+    background-color: #fdf4d7;
+    color:#E9B200
+}
+
+.active{
+    background-color: #def2e4;
+    color:#39CD62
+}
+
+.Inactive{
+    background-color: #c5cee4;
+    color:#545F7D
+}
+.blacklisted{
+    background-color: #fde6ec;
+    color:#E4033B
+}
+
+

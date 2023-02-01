@@ -1,0 +1,68 @@
+.user-persona-container {
+    width: 100%;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    padding: 2rem;
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+.personal-info-wrapper {
+    margin: 1.5rem 0.1rem;
+    position: relative;
+}
+
+.personal-info-wrapper::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.111rem;
+    background: whitesmoke;
+}
+
+.personal-info-wrapper h4 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #213f7d;
+    margin: 1rem auto;
+}
+
+.sub-user-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+    // display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sub-user-wrapper {
+    margin: 0.6rem 0.1rem;
+}
+
+.sub-user-wrapper h6 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545f7d;
+    margin: 0.2rem auto;
+}
+
+.personal-info-wrapper span {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+    color: #545f7d;
+    margin: 0.2rem auto;
+}

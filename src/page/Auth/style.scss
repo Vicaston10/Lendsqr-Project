@@ -1,0 +1,142 @@
+.login-container {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+
+.login-wrapper-welcome {
+  width: 100%;
+  background: ffff;
+  padding: 4rem 3rem;
+}
+
+.login-wrapper-form {
+  width: 100%;
+  background: #ffff;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  padding: 3rem 12rem;
+
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo-container img {
+  margin: 0.3rem;
+}
+
+.hero-img-container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-img-container img {
+  width: 100%;
+}
+.login-wrapper-form form {
+  width: 100%;
+}
+.form-header h3 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  letter-spacing: -0.04em;
+  color: #213f7d;
+}
+.form-header h5 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #545f7d;
+}
+.form-header {
+  // margin-bottom: 1rem;
+}
+
+.input-container {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(84, 95, 125, 0.15);
+  margin: 0.7rem 0.2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+  align-items: center;
+  border-radius: 8px;
+}
+.input-container input {
+  outline: none;
+  border: 0;
+  width: 100%;
+}
+
+.input-container span {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #39cdcc;
+}
+form p {
+  color: red;
+}
+
+.form-bottomm h5 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 0.8rem;
+  color: #39cdcc;
+}
+
+.login-wrapper-form button {
+  width: 100%;
+  outline: none;
+  border: 0;
+  background: #39cdcc;
+  border-radius: 8px;
+  height: 50px;
+  color: #fff;
+  margin-top: 0.8rem;
+}
+
+.logo-mobile {
+  display: none;
+}
+
+//   Media query
+@media (max-width: 800px) {
+  .login-wrapper-welcome {
+    display: none;
+  }
+  .login-wrapper-form {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    position: relative;
+  }
+  .logo-mobile {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+  }
+}

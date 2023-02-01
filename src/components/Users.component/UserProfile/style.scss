@@ -1,0 +1,120 @@
+.profile-container {
+    width: 100%;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    padding: 2rem;
+    position: relative;
+}
+
+.profile-top-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.profile-top-wrapper p {
+    margin: 0;
+}
+
+.user-info-data {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-info-data .my-profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #dedede;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.my-profile-img img {
+    object-fit: cover;
+    width: 80px;
+    clip: auto;
+}
+
+.user-name h2 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0;
+    /* identical to box height */
+    color: #213f7d;
+}
+
+.user-name span {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    color: #545f7d;
+}
+
+.user-level p {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 0.5rem;
+    color: #545f7d;
+}
+
+.user-level .ratings {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.user-account-details>p {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #213f7d;
+}
+
+.user-account-details>span {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #213f7d;
+}
+
+.nav-containers {
+    width: 100%;
+    // background: red;
+    position: relative;
+    top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-containers span {
+    font-family: "SF Compact Text";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.activeTab {
+    color: #39cdcc;
+    border-bottom: 1px solid #39cdcc;
+}

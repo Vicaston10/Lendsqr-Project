@@ -1,0 +1,49 @@
+.back-top-flex{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+    cursor:pointer;
+    color: #545F7D;
+}
+.page-title-flex{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.page-title-flex h3{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+color: #213F7D;
+
+}
+
+.page-title-flex button{
+    padding:0.5rem 1rem;
+    font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+outline:none;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+background:transparent;
+border-radius: 8px;
+margin: 0.2rem 1rem;
+}
+.blacklist-btn{
+    border:1px solid #E4033B;
+    color:#E4033B
+}
+
+.activate-btn{
+    border:1px solid #39CDCC;
+    color:#39CDCC
+}

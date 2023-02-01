@@ -1,0 +1,12 @@
+.layout-container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    margin-left: 20%;
+}
+
+@media (max-width: 1200px) {
+    .layout-container {
+        margin-left: 0;
+    }
+}

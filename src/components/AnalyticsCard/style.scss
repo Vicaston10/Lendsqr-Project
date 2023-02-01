@@ -1,0 +1,70 @@
+.card-container{
+    background: #FFFFFF;
+border: 1px solid rgba(33, 63, 125, 0.06);
+box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+border-radius: 4px;
+margin:1rem;
+padding:2rem;
+}
+
+.icon-holder{
+    width: 40px;
+height: 40px;
+border-radius:50%;
+background: #f3dbf6;
+display:flex;
+justify-content: center;
+align-items: center;
+margin-bottom:1rem
+}
+.icon-holder2{
+    background:#ede7ff;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:1rem
+}
+.icon-holder3{
+    background:#fee2de;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:1rem
+}
+.icon-holder4{
+    background:#ffecf0;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:1rem
+}
+
+.card-container h3{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+
+color: #545F7D;
+}
+.num-stats h2{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 28px;
+text-transform: uppercase;
+
+color: #213F7D;
+}

@@ -1,0 +1,26 @@
+.user-top-title {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #213f7d;
+    margin-bottom: 2rem;
+}
+
+.user-top-title h2 {
+    margin-top: 2rem !important;
+}
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 900px) {
+    .card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        flex-wrap: wrap;
+    }
+}
